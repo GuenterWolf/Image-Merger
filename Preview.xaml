@@ -1,0 +1,51 @@
+﻿<Window x:Class="ImageMerger.Preview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageMerger"
+        mc:Ignorable="d"
+        Title="View Merged Images" Height="673" Width="1800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,5">
+            <Button Click="Continue_Click" x:Name="ContinueButton" Content="Continue" Margin="0,0,5,0" Padding="5,1,5,1" ToolTip="Watch the stacked images">
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Loaded">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <ColorAnimationUsingKeyFrames Storyboard.TargetName="ContinueButton" Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)" Duration="0:0:1" RepeatBehavior="4x">
+                                    <ColorAnimationUsingKeyFrames.KeyFrames>
+                                        <LinearColorKeyFrame Value="LightPink" KeyTime="0:0:0.5" />
+                                        <LinearColorKeyFrame Value="LightGray" KeyTime="0:0:1" />
+                                    </ColorAnimationUsingKeyFrames.KeyFrames>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+        </StackPanel>
+
+        <Viewbox Grid.Row="1">
+            <Grid Grid.IsSharedSizeScope="True" ShowGridLines="True">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition SharedSizeGroup="A"/>
+                    <ColumnDefinition SharedSizeGroup="A"/>
+                    <ColumnDefinition SharedSizeGroup="A"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="Image00" Grid.Column="0" Opacity="0.33" RenderTransformOrigin="0.5,0.5" Source="pack://application:,,,/Images/Image06.jpg"/>
+                <Image x:Name="Image01" Grid.Column="1" Opacity="0.33" RenderTransformOrigin="0.5,0.5" Source="pack://application:,,,/Images/Image07.jpg"/>
+                <Image x:Name="Image02" Grid.Column="2" Opacity="0.33" RenderTransformOrigin="0.5,0.5" Source="pack://application:,,,/Images/Image08.jpg"/>
+            </Grid>
+        </Viewbox>
+    </Grid>
+</Window>
