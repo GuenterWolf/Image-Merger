@@ -15,7 +15,7 @@ This utility was inspired by the brilliant artwork of [Petros Vrellis](http://ar
 * Unzip and run the `setup.exe` program, then follow the instructions.  
   You may be prompted to install .NET Desktop Runtime 8.0.8 (x64) as a prerequisite.
 ## Program Usage
-* Click on one of the five images and select an alternative image of your choice.
+* In the program, click on one of the five images and select an alternative image of your choice.
 * Click the `Merge Images` button to merge the three source images and two merge images.
 * Click the `Show Merged Images` button to see what the images will look like when they are placed on top of each other.
 * When you are satisfied with the result, click the `Save Merged Images` button to save the resulting images as a PDF file.  
