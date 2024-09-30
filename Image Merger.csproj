@@ -20,6 +20,11 @@
     <None Remove="Images\Image06.jpg" />
     <None Remove="Images\Image07.jpg" />
     <None Remove="Images\Image08.jpg" />
+    <None Remove="Images\ImageMerger.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\ImageMerger.gif" />
   </ItemGroup>
 
   <ItemGroup>
