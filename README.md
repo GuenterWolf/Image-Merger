@@ -17,5 +17,6 @@ This utility was inspired by the brilliant artwork of [Petros Vrellis](http://ar
 * Click on one of the five images and select an alternative image of your choice.
 * Click the `Merge Images` button to merge the three source images and two merge images.
 * Click the `Show Merged Images` button to see what the images will look like when they are placed on top of each other.
-* When you are satisfied with the result, click the `Save Merged Images` button to save the resulting images as a PDF file.
+* When you are satisfied with the result, click the `Save Merged Images` button to save the resulting images as a PDF file.  
+  Print the contents of the PDF file on three transparencies.
 * Clicking the `Reset Images` button restores the original images.
