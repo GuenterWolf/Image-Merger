@@ -24,7 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Images\ImageMerger.gif" />
+    <DesignData Include="Images\ImageMerger.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </DesignData>
   </ItemGroup>
 
   <ItemGroup>
