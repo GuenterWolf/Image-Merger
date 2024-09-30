@@ -1,5 +1,6 @@
 # Image Merger
-![Image Merger](https://github.com/GuenterWolf/Image-Merger/blob/master/Images/Image00.jpg "Show Merged Images")
+![Image Merger](https://github.com/GuenterWolf/Image-Merger/blob/master/Images/ImageMerger.gif "Show Merged Images")
+
 This program merges two images into three other images in such a way that the two images are almost invisible in the three resulting images.
 
 When the three resulting images are printed on transparencies and placed on top of each other in the correct orientation, the hidden two images are revealed.
