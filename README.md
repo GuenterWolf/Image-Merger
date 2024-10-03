@@ -7,7 +7,7 @@ When the three resulting images are printed on transparencies and placed on top 
 
 The surprise of the audience watching the show is guaranteed ;-)
 
-A detailed description of the project can be found on [Instructables.com](https://www.instructables.com "Image Merger Project").
+A detailed description of the project can be found on [Instructables.com](https://www.instructables.com/How-to-Hide-Two-Images-in-Three-Slides "Image Merger Project").
 
 This utility was inspired by the brilliant artwork of [Petros Vrellis](http://artof01.com/vrellis/works/AllAndOne.html "Out of All Things One, and Out of One All Things").
 ## Installation Instructions
